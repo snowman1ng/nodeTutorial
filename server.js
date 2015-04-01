@@ -8,7 +8,7 @@ app.get('/', function(req, res) {
 	res.sendfile('./public/index.html');
 });
 
-app.get('/storytime', function(reg, res)) {
+app.get('/storytime', function(reg, res) {
 	res.send("<p>Hey " + req.query.name + "nice to meet you </p>");	
 });
 
